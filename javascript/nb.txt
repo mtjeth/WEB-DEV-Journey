@@ -1,0 +1,57 @@
+var --> to initiate variable
+most operators are same as c++
+===  --> used to validate and if its used if they are same but diffrent data type then it will not be equal eg. "2" and 2 are not equal one is string the other is float.
+
+var array =[element1,element2,...]
+
+arrayname.indexof(some element) to find index in array
+arrayname.push to add into array
+
+
+to write function 
+function name_of_function(parameters){
+    commands to be executed;
+    return value;
+}
+or store in variable as
+var name = function(parameters){
+    commands to be executed;
+    return value;
+}
+then use name(parameter)
+and the second method is good when using with array
+
+for objects we use
+e.g:-
+var student ={
+    Name : "ahmed",
+    age : 20;
+};
+then use student.name or student.age to access 
+there is other method to access not prefered which is student["name"] or student["age"]
+
+other way to create object is 
+var student1 = new Object(); // also we can say var student1 = {};
+student1.Name = "ahmed";
+student1.age = 20;
+
+this is used in place where to refrence inside a function to refer the object
+e.g:-
+var student ={
+    Name : "ahmed",
+    age : 20;
+    greeting: function() {
+        return "hi, my name is " + this.Name + "and i am " + this.age +"years old";
+    }
+};
+
+reusable object can be made using functions
+e.g:- 
+function student(Name,age){
+    this.Name = Name;
+    this.age = age;
+}
+so to create object student we use
+var objectname = new student("ahmed",23);
+
+.bind is used to bind function check video 42

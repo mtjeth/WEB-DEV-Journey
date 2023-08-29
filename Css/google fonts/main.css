@@ -1,0 +1,57 @@
+/*
+html {
+    font-family: "Times  New Roman",serif,monospace;
+     we add another font so if the browser does not support the first font it will use the second
+}*/
+body {
+    /* background-image: url(test.png) ; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: #444;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    line-height: 2rem;
+    font-family: 'Kablammo',serif,monospace;
+}
+h2 {
+    color: #ffffff;
+    line-height: 2rem;
+    font-family: 'Oswald:300',serif,monospace;
+}
+h3 {
+    color: #ffffff;
+    line-height: 2rem;
+    font-family: 'Tilt+Prism',serif,monospace;
+}
+
+
+a {
+    text-decoration: none ;
+    font-size: 50px;
+    color:antiquewhite;
+    letter-spacing: 20px;
+    word-spacing: 100px;
+    text-transform: uppercase;
+}
+
+.borderImg {
+    border-left: 20px dashed greenyellow;
+}
+
+.formatting {
+    font-size: 30px;
+    line-height: 3em;
+    color: #ffffff;
+}
+
+ul li {
+    color:brown;
+    font-size: 50px;
+}
+
+ul > li {
+    color :blue;
+}

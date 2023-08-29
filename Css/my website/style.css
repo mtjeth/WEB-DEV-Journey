@@ -1,0 +1,31 @@
+div.navbar {
+    text-decoration-style: none;
+    margin: 0%;
+    padding: 0 15px;
+}
+
+nav div.navbar ul.topnav {
+    margin: 0 336.5px;
+    list-style: none;
+    display: block;
+}
+
+nav div.navbar  a.nav-title {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+nav div.navbar ul.topnav li a{
+    text-decoration: none;
+    float: left;
+}
+
+
+/* ########### Mobile ########### */
+
+@media screen and (max-width: 804px) {
+    
+
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+}
+/*using element to change property*/
+h1 {
+    color:hotpink;
+    font-style: italic;
+    text-align: right;
+}
+/*using class to change property*/
+.rectangle {
+    width:100px;
+    height:50px;
+    background-color:antiquewhite;
+    margin:auto;
+}
+/*using id  to change property but not recommended because its mostly used with javascript*/
+#circle {
+    color: black;
+    font-size: 50px;
+}

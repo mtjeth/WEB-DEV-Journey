@@ -1,0 +1,42 @@
+
+body {
+    /* background-image: url(test.png) ; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: #444;
+    /* text-align: center; */
+}
+
+
+
+a {
+    text-decoration: none ;
+    font-size: 50px;
+    color:antiquewhite;
+    letter-spacing: 20px;
+    word-spacing: 100px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 0.90;
+    display: block;
+    margin:auto
+}
+
+.borderImg {
+    border-radius: 25%;
+    width: 500px;
+    height: 500px;
+    border:2px solid green;
+    padding: 5px;
+}
+
+.formatting {
+    font-size: 30px;
+    line-height: 3em;
+    color: #ffffff;
+}

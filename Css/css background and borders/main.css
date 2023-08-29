@@ -1,0 +1,23 @@
+body {
+    background-image: url(test.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+/*    background: linear-gradient(to left,#abc123,#321cba);
+    box-shadow: 10px -30px 5px green;
+*/
+}
+
+h1 {
+    color: #abc457;
+    text-shadow: 3px 2px white;
+}
+
+h2 {
+    color:rgb(0, 64, 255);
+    text-shadow: 3px 2px 5px rgb(228, 14, 14);
+}
+.borderImg {
+    border-left: 20px dashed greenyellow;
+}

@@ -1,0 +1,71 @@
+/* style gives more specificity of 1000 */
+body {
+    background-image: url(test.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+/*    background: linear-gradient(to left,#abc123,#321cba);
+    box-shadow: 10px -30px 5px green;
+*/
+}
+/*the below choosen because specificity value is 100(id,class,container)*/
+#boo {
+    color:rgba(250, 6, 6, 0.582);
+}
+/*the below specificity value is 10(attribute,container)*/
+[id="boo"] {
+    color:fuchsia;
+}
+
+/*the below  specificity value is 11(class,container)*/
+.container h1 {
+    color:blueviolet;
+}
+
+
+/*h1 will inherit the below because specificity value is two(element+element) because it has div and h1 but if it was 1 it was going to inherit the one found at last */
+body h1 {
+    color:yellow;
+}
+html h1 {
+    color: brown;
+}
+div h1 {
+    color: black;
+}
+
+/*grouping*/
+h1,h2,h3 {
+    color: #abc457;
+    text-shadow: 3px 2px white;
+    line-height: 1rem;
+    font-family: Gill Sans;
+}
+
+
+
+
+
+.borderImg {
+    border-left: 20px dashed greenyellow;
+}
+/*descendent ul is parent and li is child*/
+ul li {
+    color:brown;
+    font-size: 50px;
+}
+/*child selector this shows only the first decendent child one level deep inherit*/
+ul > li {
+    color :blue;
+}
+
+/*
+NB: if !important added it will be used 
+eg; 
+h1 {
+    color: brown !important; 
+}
+never use unless necessary
+
+*/
